@@ -1,0 +1,10 @@
+{% if result%}
+    {% for i in result%}
+    <a href="/posts/{{i.id}}">{{i.title}}</a> <br>
+    {%endfor%} 
+    
+ {%else%}
+   <h3>no post fount</h3>   
+ {% endif %}  
+
+ 

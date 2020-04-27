@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<style>
+.serach{
+    margin-top:200px;
+    margin-left:450px;
+}
+.btn{
+    margin-left: 200px;
+    width: 100px;
+}
+body{
+    background-color: darkgray;
+}
+</style>
+<body>
+     <div class="serach">
+        <h1 style="font-size:100px; padding-left:90px;color:#34A853">Search</h1>
+
+    <form action="" method="GET">
+        <!-- {% csrf_token %} -->
+        <div class="form-group" style="width: 500px; ">
+            
+          <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Search" name="search">
+          <small id="emailHelp" class="form-text text-muted">Search for post.</small>
+        </div>
+        <button type="submit" class="btn btn-primary" >Search</button>
+    </form>    
+    </div>
+       
+</body>
+</html>
